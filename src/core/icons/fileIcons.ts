@@ -102,6 +102,7 @@ export const fileIcons: FileIcons = {
       ],
       fileNames: ['.htaccess'],
     },
+    { name: 'toml', fileExtensions: ['toml'], light: true },
     {
       name: 'image',
       fileExtensions: [
@@ -295,7 +296,6 @@ export const fileIcons: FileIcons = {
         'settings',
         'option',
         'props',
-        'toml',
         'prefs',
         'sln.dotsettings',
         'sln.dotsettings.user',
@@ -2875,6 +2875,12 @@ export const fileIcons: FileIcons = {
     {
       name: 'minecraft-fabric',
       fileNames: ['fabric.mod.json'],
+    },
+    {
+      name: 'umi',
+      patterns: {
+        ".umirc": FileNamePattern.Ecmascript,
+      },
     },
   ]),
 };
