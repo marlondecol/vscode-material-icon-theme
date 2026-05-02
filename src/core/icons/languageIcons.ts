@@ -214,4 +214,9 @@ export const languageIcons: LanguageIcon[] = [
     ids: ['instructions'],
     clone: { base: 'lib', color: 'cyan-A700' },
   },
+  {
+    name: 'copilot-agent',
+    ids: ['chatagent'],
+    light: true,
+  },
 ];
