@@ -8,6 +8,7 @@ export const languageIcons: LanguageIcon[] = [
   {
     name: 'github-actions-workflow',
     ids: ['github-actions-workflow'],
+    light: true,
   },
   {
     name: 'yaml',
