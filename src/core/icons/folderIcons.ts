@@ -1427,6 +1427,18 @@ export const folderIcons: FolderTheme[] = [
         },
       },
       { name: 'folder-kotlin', folderNames: ['kotlin'] },
+      {
+        name: 'folder-copilot-agent',
+        folderNames: ['.copilot/agents', '.github/agents'],
+      },
+      {
+        name: 'folder-claude-agent',
+        folderNames: ['.claude/agents'],
+        clone: {
+          base: 'folder-copilot-agent',
+          color: 'deep-orange-400',
+        },
+      },
     ],
   },
   {
